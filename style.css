@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* variables */
+body {
+  font-family: "Bebas Neue";
+}
+
+.container {
+  max-width: 1000px;
+  width: 90%;
+  margin: auto;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  background-image: linear-gradient(#a4bc46, #85a019);
+  color: #fff;
+  cursor: pointer;
+}
+
+nav img {
+  width: 200px;
+  padding: 20px 0;
+}
+nav .item {
+  float: right;
+  padding: 25px 0;
+}
+nav .item a {
+  text-decoration: none;
+  color: #3c3c3c;
+  margin: 0 5px 0 5px;
+}
+
+.header .grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+.header .grid .content h1 {
+  color: #fabe4c;
+  font-size: 50px;
+}
+.header .grid .content span {
+  color: #363958;
+}
+.header .grid .content p {
+  color: #3e3e3e;
+  margin-bottom: 10px;
+}
+.header .grid .img img {
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+.woman {
+  margin: 100px 0;
+}
+.woman h1 {
+  color: #363958;
+  margin: 20px 0;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.cart-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 30px;
+}
+
+.cart {
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.08);
+}
+
+.cart-body {
+  padding: 0 20px 0 20px;
+}
+
+.cart-img {
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.cart-img img {
+  width: 293px;
+  height: 293px;
+}
+
+.cart-content h1 {
+  color: #363958;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+.cart-content p {
+  color: #363958;
+  font-weight: 400;
+}
+
+.cart-footer {
+  padding: 10px 5px;
+  border-top: 1px solid #f1f1f1;
+}
+.cart-footer span {
+  color: #fabe4c;
+  font-size: 30px;
+}
+.cart-footer button {
+  float: right;
+}
+
+.contact-container .contact {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-gap: 20px;
+}
+.contact-container .contact .item1 .cart {
+  box-shadow: 0 1 rgba(0, 0, 0, 0.2);
+}
+.contact-container .contact .item1 .cart .cart-body {
+  display: grid;
+  grid-template-columns: 25% 60%;
+  grid-gap: 10px;
+  padding: 10px 10px;
+}
+.contact-container .contact .item1 .cart .cart-body img {
+  width: 60px;
+  height: 60px;
+}
+.contact-container .contact .item1 .cart .cart-body .subItem h2 {
+  color: #363958;
+  font-size: 15px;
+  font-weight: 300;
+}
+.contact-container .contact .item1 .cart .cart-body .subItem span {
+  color: #3e3e3e;
+  font-size: 14px;
+  font-weight: 300;
+}
+.contact-container .item2 img {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
