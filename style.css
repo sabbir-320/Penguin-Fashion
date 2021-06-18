@@ -89,8 +89,9 @@ nav .item a {
   background-color: #f1f1f1;
 }
 .cart-img img {
-  width: 293px;
-  height: 293px;
+  width: 180px;
+  height: 180px;
+  margin: auto;
 }
 
 .cart-content h1 {
@@ -151,7 +152,21 @@ nav .item a {
 
 @media screen and (max-width: 600px) {
   .container {
-    max-width: 1000px;
+    width: 95%;
+    margin: auto;
+  }
+
+  .header .grid {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .cart-container {
+    grid-template-columns: auto;
+  }
+
+  .contact-container .contact {
+    grid-template-columns: 100%;
   }
 }
 

@@ -97,8 +97,9 @@ nav {
   width: 100%;
   background-color: #f1f1f1;
   img {
-    width: 293px;
-    height: 293px;
+    width: 180px;
+    height: 180px;
+    margin:auto;
   }
 }
 .cart-content {
@@ -167,6 +168,22 @@ nav {
 }
 @media screen and (max-width: 600px) {
   .container {
-    max-width: 1000px;
+    width: 95%;
+    margin: auto;
   }
+  .header {
+    .grid {
+      display: grid;
+      grid-template-columns: 100%;
+      
+    }
+  }
+  .cart-container {
+    grid-template-columns: auto;
+  }
+  .contact-container {
+    .contact {
+      grid-template-columns: 100%;
+  }
+}
 }
